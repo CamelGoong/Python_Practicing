@@ -3,6 +3,12 @@
 
 
 Hi! This is the first day, I started studying AI python coding in the academy.
+I think this post maybe expressed in a confusing way, cause it is my first time to use any function in Github.
+Just focus on my first step with passion for python.
+
+
+
+
 Python 3.9.4 (tags/v3.9.4:1f2e308, Apr  6 2021, 13:40:21) [MSC v.1928 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
 >>> abs(7.5)
