@@ -1,0 +1,62 @@
+v21.05.04
+
+dict1 = {"이름":"만수", "나이":20, "직업":"학생"}
+print(dict1)
+
+
+city = input("어디서 오셨나요 :")
+print(city)
+
+
+
+print(" \t 내얼굴 \a 니얼굴 \b 우리얼굴")
+age = 20
+name = '빌 게이츠'
+print(name, '님은', age, '살')
+
+print("%s님은 %d살" %(name, age) )
+print(" [%d] [%10d] [%-10d]" %(5,5,5))
+
+print("  {}  {}".format(10, 'seoul'))
+print('{} {}  {}'.format(10, 3.14, 'seoul'))
+print(' {2}{2}{2}'. format(10, 20, 'seoul'))
+
+print(' [{:>20}][{:>20}][{:>20}]'. format(10, 20, 'seoul'))
+print(' [{:>20}][{:}][{:>20}]'. format(10, 3.14, 'seoul'))
+print(' [{:>20}][{:.30f}][{:>20}]'. format(10, 3.14, 'seoul'))
+print(' %f, %.2f, %.10f'%(2.13, 2.13, 2.13))
+
+for i in range(5, 100, 5):
+  print(i, end = " ")
+
+sum2 = 0.0
+for i in range(100):
+  sum2 = sum2 + 0.1
+
+print(sum2)
+
+a, b = input().split()
+
+
+from google.colab import drive
+drive.mount('/gdrive')
+
+f = open("/gdrive/My Drive/AI_Curator/db/memo.txt", "r", encoding="utf8")
+print(f.read())
+
+f2 = open("/gdrive/My Drive/AI_Curator/db/memo.txt", "w", encoding="utf8")
+f2.write("파이썬은 정말 대단한 것 같습니다! \n")
+f2.write("꼭 AI 전문가가 되보겠습니다! \n")
+
+f2.close()
+
+f2 = open("/gdrive/My Drive/AI_Curator/db/memo.txt", "r", encoding="utf8")
+print(f2.read())
+
+f3 = open("/gdrive/My Drive/AI_Curator/db/memo.txt", "a", encoding="utf8")
+for i in range(5):
+  f3.write(input("친구이름은 누구입니까??"))
+f3.close()
+
+f3 = open("/gdrive/My Drive/AI_Curator/db/memo.txt", "r", encoding="utf8")
+print(f3.read())
